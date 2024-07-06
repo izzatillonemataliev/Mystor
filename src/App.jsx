@@ -12,9 +12,6 @@ import MainLayout from "./layout/MainLayout";
 
 // pages
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Product from "./pages/Product";
 import Purchased from "./pages/Purchased";
 import Signin from "./pages/Login";
 import Signup from "./pages/Signin";
@@ -51,26 +48,6 @@ function App() {
         {
           index: true,
           element: <Home />,
-        },
-        {
-          path: "/about",
-          element: <About />,
-        },
-        {
-          path: "/contact",
-          element: <Contact />,
-        },
-        {
-          path: "/purchased",
-          element: <Purchased />,
-        },
-        {
-          path: "/product/:id",
-          element: <Product />,
-        },
-        {
-          path: "/dashboard",
-          element: <Dashboard />,
         },
       ],
     },
